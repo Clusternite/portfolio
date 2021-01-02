@@ -358,8 +358,8 @@ h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: -webkit-gradient(linear, left top, right top, from(#3A6073), to(#16222A));
-  background: linear-gradient(to right, #3A6073, #16222A);
+  background: -webkit-gradient(linear, left top, right top, from(#3a6073), to(#16222a));
+  background: linear-gradient(to right, #3a6073, #16222a);
   padding: 0;
 }
 
@@ -1306,8 +1306,8 @@ section {
   border-radius: 50px;
   width: 36px;
   height: 36px;
-  background: -webkit-gradient(linear, left top, right top, from(#3A6073), to(#16222A));
-  background: linear-gradient(to right, #3A6073, #16222A);
+  background: -webkit-gradient(linear, left top, right top, from(#3a6073), to(#16222a));
+  background: linear-gradient(to right, #3a6073, #16222a);
   display: inline-block;
   -webkit-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
