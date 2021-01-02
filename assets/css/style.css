@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-  color: #1a61ad;
+  color: #00d9ff;
   text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ h6 {
 }
 
 .back-to-top i:hover {
-  background: #fc7c1f;
+  background: #00d9ff;
   color: #fff;
 }
 
@@ -970,7 +970,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #fd9f5b;
+  color: #00d9ff;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -998,7 +998,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-links a:hover {
-  color: #fd9f5b;
+  color: #00d9ff;
 }
 
 .portfolio .portfolio-item:hover .portfolio-img img {
@@ -1185,7 +1185,7 @@ section {
 }
 
 .pricing .btn-buy:hover {
-  background: #fc8129;
+  background: #00d9ff;
 }
 
 .pricing .featured {
@@ -1306,7 +1306,8 @@ section {
   border-radius: 50px;
   width: 36px;
   height: 36px;
-  background: rgba(239, 102, 3, 0.8);
+  background: -webkit-gradient(linear, left top, right top, from(#3A6073), to(#16222A));
+  background: linear-gradient(to right, #3A6073, #16222A);
   display: inline-block;
   -webkit-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
@@ -1314,7 +1315,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #fc8129;
+  background: #00d9ff;
 }
 
 .team .member .social i {
@@ -1493,7 +1494,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #fc8129;
+  background: #00d9ff;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1710,7 +1711,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #bd5102;
+  background: #00d9ff;
   color: #fff;
   text-decoration: none;
 }

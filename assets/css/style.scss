@@ -59,7 +59,7 @@ h6 {
 }
 
 .back-to-top i:hover {
-  background: #fc7c1f;
+  background: $primaryCLighter;
   color: #fff;
 }
 
@@ -919,7 +919,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #fd9f5b;
+  color: $primaryCLighter;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -945,7 +945,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-links a:hover {
-  color: #fd9f5b;
+  color: $primaryCLighter;
 }
 
 .portfolio .portfolio-item:hover .portfolio-img img {
@@ -1126,7 +1126,7 @@ section {
 }
 
 .pricing .btn-buy:hover {
-  background: #fc8129;
+  background:$primaryCLighter;
 }
 
 .pricing .featured {
@@ -1243,14 +1243,14 @@ section {
   border-radius: 50px;
   width: 36px;
   height: 36px;
-  background: rgba(239, 102, 3, 0.8);
+  background: $background;
   display: inline-block;
   transition: ease-in-out 0.3s;
   color: #fff;
 }
 
 .team .member .social a:hover {
-  background: #fc8129;
+  background:$primaryCLighter;
 }
 
 .team .member .social i {
@@ -1420,7 +1420,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #fc8129;
+  background: $primaryCLighter;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1632,7 +1632,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #bd5102;
+  background: $primaryCLighter;
   color: #fff;
   text-decoration: none;
 }
