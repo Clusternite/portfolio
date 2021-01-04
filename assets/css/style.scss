@@ -714,10 +714,19 @@ section {
   margin-bottom: 0;
 }
 
-.skillTxt {
-  margin: 10px;
-  font-size: 15px !important;
-  color: red !important;
+.skillTxt{
+  margin-bottom: 40px;
+}
+
+.skillTxt span {
+  margin-left: 10px;
+  font-size: 20px ;
+  text-transform: uppercase;
+}
+
+.skillTxt .c-progressBar{
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 // skillbar
@@ -731,7 +740,7 @@ $amountPercent: 100;
 }
 
 .c-progressBar {
-  background-color: $black;
+  background-color: black;
   height: 0.001rem;
   display: block;
   border-radius: 50px;

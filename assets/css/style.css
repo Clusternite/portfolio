@@ -749,6 +749,21 @@ section {
   margin-bottom: 0;
 }
 
+.skillTxt {
+  margin-bottom: 40px;
+}
+
+.skillTxt span {
+  margin-left: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.skillTxt .c-progressBar {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 .u-width-0percent {
   width: 0% !important;
 }
