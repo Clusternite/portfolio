@@ -629,7 +629,6 @@ section {
   text-decoration: none;
 }
 
-
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -713,6 +712,37 @@ section {
 
 .skills .tab-pane p:last-child {
   margin-bottom: 0;
+}
+
+.skillTxt {
+  margin: 10px;
+  font-size: 15px !important;
+  color: red !important;
+}
+
+// skillbar
+$stepPercent: 1%;
+$amountPercent: 100;
+
+@for $i from 0 through $amountPercent {
+  .u-width-#{$i}percent {
+    width: $i * $stepPercent !important;
+  }
+}
+
+.c-progressBar {
+  background-color: $black;
+  height: 0.001rem;
+  display: block;
+  border-radius: 50px;
+  height: 0.4rem;
+  margin: 0 0.25rem;
+}
+
+.c-progressBar--progress {
+  height: 0.4rem;
+  border-radius: 45px;
+  background-color: $primaryC;
 }
 
 /*--------------------------------------------------------------
@@ -1212,7 +1242,7 @@ section {
 }
 
 .pricing .btn-buy:hover {
-  background:$primaryCLighter;
+  background: $primaryCLighter;
 }
 
 .pricing .featured {
@@ -1336,7 +1366,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background:$primaryCLighter;
+  background: $primaryCLighter;
 }
 
 .team .member .social i {
