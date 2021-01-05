@@ -947,14 +947,14 @@ $amountPercent: 100;
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Work
 --------------------------------------------------------------*/
-.portfolio #portfolio-flters {
+.work #work-flters {
   list-style: none;
   margin-bottom: 20px;
 }
 
-.portfolio #portfolio-flters li {
+.work #work-flters li {
   cursor: pointer;
   display: inline-block;
   margin: 0 0 10px 10px;
@@ -966,7 +966,7 @@ $amountPercent: 100;
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li::before {
+.work #work-flters li::before {
   content: "[";
   margin-right: 6px;
   color: #fff;
@@ -975,7 +975,7 @@ $amountPercent: 100;
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li::after {
+.work #work-flters li::after {
   content: "]";
   margin-left: 6px;
   color: #fff;
@@ -984,29 +984,29 @@ $amountPercent: 100;
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.work #work-flters li:hover,
+.work #work-flters li.filter-active {
   color: $primaryC;
 }
 
-.portfolio #portfolio-flters li.filter-active::before,
-.portfolio #portfolio-flters li.filter-active::after {
+.work #work-flters li.filter-active::before,
+.work #work-flters li.filter-active::after {
   color: $primaryC;
 }
 
-.portfolio .portfolio-item {
+.work .work-item {
   margin-bottom: 30px;
 }
 
-.portfolio .portfolio-item .portfolio-img {
+.work .work-item .work-img {
   overflow: hidden;
 }
 
-.portfolio .portfolio-item .portfolio-img img {
+.work .work-item .work-img img {
   transition: all 0.8s ease-in-out;
 }
 
-.portfolio .portfolio-item .portfolio-info {
+.work .work-item .work-info {
   opacity: 0;
   position: absolute;
   left: 15px;
@@ -1018,7 +1018,7 @@ $amountPercent: 100;
   padding: 10px 15px;
 }
 
-.portfolio .portfolio-item .portfolio-info h4 {
+.work .work-item .work-info h4 {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
@@ -1026,14 +1026,14 @@ $amountPercent: 100;
   margin-bottom: 0px;
 }
 
-.portfolio .portfolio-item .portfolio-info p {
+.work .work-item .work-info p {
   color: #fedac0;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link,
-.portfolio .portfolio-item .portfolio-info .details-link {
+.work .work-item .work-info .preview-link,
+.work .work-item .work-info .details-link {
   position: absolute;
   right: 40px;
   font-size: 24px;
@@ -1042,16 +1042,16 @@ $amountPercent: 100;
   transition: 0.3s;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link:hover,
-.portfolio .portfolio-item .portfolio-info .details-link:hover {
+.work .work-item .work-info .preview-link:hover,
+.work .work-item .work-info .details-link:hover {
   color: $primaryCLighter;
 }
 
-.portfolio .portfolio-item .portfolio-info .details-link {
+.work .work-item .work-info .details-link {
   right: 10px;
 }
 
-.portfolio .portfolio-item .portfolio-links {
+.work .work-item .work-links {
   opacity: 0;
   left: 0;
   right: 0;
@@ -1061,7 +1061,7 @@ $amountPercent: 100;
   transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-item .portfolio-links a {
+.work .work-item .work-links a {
   color: #fff;
   margin: 0 2px;
   font-size: 28px;
@@ -1069,15 +1069,15 @@ $amountPercent: 100;
   transition: 0.3s;
 }
 
-.portfolio .portfolio-item .portfolio-links a:hover {
+.work .work-item .work-links a:hover {
   color: $primaryCLighter;
 }
 
-.portfolio .portfolio-item:hover .portfolio-img img {
+.work .work-item:hover .work-img img {
   transform: scale(1.2);
 }
 
-.portfolio .portfolio-item:hover .portfolio-info {
+.work .work-item:hover .work-info {
   opacity: 1;
 }
 
@@ -1625,28 +1625,28 @@ $amountPercent: 100;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Work Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.work-details {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-container {
+.work-details .work-details-container {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-carousel {
+.work-details .work-details-carousel {
   position: relative;
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav,
-.portfolio-details .portfolio-details-carousel .owl-dots {
+.work-details .work-details-carousel .owl-nav,
+.work-details .work-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot {
+.work-details .work-details-carousel .owl-dot {
   display: inline-block;
   margin: 0 10px 0 0;
   width: 12px;
@@ -1655,11 +1655,11 @@ $amountPercent: 100;
   background-color: #ddd !important;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot.active {
+.work-details .work-details-carousel .owl-dot.active {
   background-color: $primaryC !important;
 }
 
-.portfolio-details .portfolio-info {
+.work-details .work-info {
   padding: 30px;
   position: absolute;
   right: 0;
@@ -1669,7 +1669,7 @@ $amountPercent: 100;
   z-index: 2;
 }
 
-.portfolio-details .portfolio-info h3 {
+.work-details .work-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1677,33 +1677,33 @@ $amountPercent: 100;
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.work-details .work-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.work-details .work-info ul li + li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.work-details .work-description {
   padding-top: 50px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.work-details .work-description h2 {
   width: 50%;
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.work-details .work-description p {
   padding: 0 0 0 0;
 }
 
 @media (max-width: 768px) {
-  .portfolio-details .portfolio-info {
+  .work-details .work-info {
     position: static;
     margin-top: 30px;
   }
