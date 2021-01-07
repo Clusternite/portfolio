@@ -1390,7 +1390,7 @@ section {
 }
 
 .services .description {
-  font-size: 14px;
+  font-size: 15px;
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
@@ -1923,8 +1923,8 @@ section {
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
-  color: #555974;
+  font-size: 17px;
+  color: #393b47;
 }
 
 .contact .info .email,
